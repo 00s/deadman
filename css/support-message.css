@@ -1,0 +1,17 @@
+/**
+    Source file name    : main.css
+    Author              : http://www.cubewebsites.com/blog/guides/how-to-use-impress-js/
+    Last Modified by    : Adolfo Farias
+    Date last Modified  : 2012/09/24
+    Program description : hide/show support message for plug-in compatibility
+    Revision History    : https://github.com/00s/deadman
+	License				: None (Public Domain)
+*/
+
+/* used for impress.js function to hide or show content considering the browser */
+.no-support-message {
+	display:none;
+}
+.impress-not-supported .no-support-message {
+	display:block;
+}
