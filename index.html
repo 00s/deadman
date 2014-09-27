@@ -1,15 +1,14 @@
 ﻿<!-- 
 
     Source file name    : Index.html  
-    Author              : Adolfo Farias
+    Author              : https://github.com/tsiliopoulos
     Last Modified by    : Adolfo Farias
     Date last Modified  : 2012/09/24
     Program description : slides structure
     Revision History    : https://github.com/00s/deadman
-
+    License             : None (Public Domain)
 
 -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +26,19 @@
             <p>Your browser doesn't support impress.js. Try Chrome or Safari.</p>
         </div> 
 
+        <!-- Presentation slide -->
+        <div id="intro" class="step slide" data-x="0" data-y="0" data-z="1000" data-rotate-x="90">
+            <div id="floater"></div>
+            <div id="logo">
+                <a href="#wakeup">DEADMAN</a> 
+            </div>
+            
+        </div>
         
         <!-------------- Level A -------------->
 
-        <!-- a1 | intro -->
-        <div id="intro" class="step slide" data-x="0" data-y="0" data-z="0">
+        <!-- a1 | start -->
+        <div id="wakeup" class="step slide" data-x="0" data-y="0" data-z="0">
             <div class="slide-text">
                 <p>
                     You wake up with grunt sounds coming from your right side, but your vision is blurred and you can’t see much. You just remember about being driving in the roadway with your wife and kid.
@@ -61,9 +68,6 @@
                 <p><a href="#look-inside-car">look inside the car.</a></p>
 
             </div>
-            <div class="menu">
-                <a href="#intro">START OVER</a>
-            </div> 
         </div> 
 
         <!-- b2 | wait-vision -->
@@ -78,9 +82,6 @@
                 </p>
                 <p><a href="#look-for-help">go look for help</a></p>
                 <p><a href="#open-trunk">open the trunk,</a></p>
-            </div> 
-            <div class="menu">
-                <a href="#intro">START OVER</a>
             </div> 
         </div> 
 
@@ -99,13 +100,10 @@
                 <p><a href="#come-closer">come closer</a></p>
                 <p><a href="#run-away">run away</a></p>
             </div> 
-            <div class="menu">
-                <a href="#intro">START OVER</a>
-            </div> 
         </div> 
         
         <!-- c2 | look-inside-car -->
-        <div id="look-inside-car" class="step slide" data-x="-1000" data-y="1000" data-z="-3000">
+        <div id="look-inside-car" class="step slide" data-x="-1000" data-y="1000" data-z="-3000" data-rotate-x="90">
             <div class="slide-text">
                 <p>
                     and your baby is breathing at his special seat. You carefully take him out the car and lay him in the baby backpack. you also find a leather belt and your wife’s bag and decide to take them with you. Back to your wife’s door, you notice her right hand was mutilated by the door’s hardware. But the strange thing is THAT WEREN'T ANY BLOOD!
@@ -116,9 +114,6 @@
                 </p>
                 <p><a href="#she-zombie">She became a zombie!</a></p>
                 <p><a href="#she-didnt">No, she didn't...</a></p>
-            </div> 
-            <div class="menu">
-                <a href="#intro">START OVER</a>
             </div> 
         </div> 
 
@@ -135,13 +130,10 @@
                 <p><a href="#open-door">open the door,</a></p>
                 <p><a href="#knock-door">knock the door</a></p>
             </div> 
-            <div class="menu">
-                <a href="#intro">START OVER</a>
-            </div> 
         </div>      
 
         <!-- c4 | open-trunk -->
-        <div id="open-trunk" class="step slide" data-x="1000" data-y="1000" data-z="-3000">
+        <div id="open-trunk" class="step slide" data-x="1000" data-y="1000" data-z="-3000" data-rotate-y="90">
             <div class="slide-text">
                 <p>
                     take your bag, a hockey stick and the first aid kit. your wife still struggling inside the car while you are limping with the little Nick on your backpack through the forest. a blood tear comes to your mouth and you like the taste.
@@ -149,9 +141,6 @@
                 </p>
                 <p><a href="#headshot">shots your head</a></p>
                 <p><a href="#armshot">shots your arm</a></p>
-            </div> 
-            <div class="menu">
-                <a href="#intro">START OVER</a>
             </div> 
         </div> 
 
@@ -165,7 +154,7 @@
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div>
         </div> 
         
@@ -177,7 +166,7 @@
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
         
@@ -189,7 +178,7 @@
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
         
@@ -204,7 +193,7 @@
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
         
@@ -217,19 +206,19 @@
                 <br />
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
         
         <!-- d6 | knock-door -->
-        <div id="knock-door" class="step slide" data-x="1000" data=y="-3000" data-z="-6000">
+        <div id="knock-door" class="step slide" data-x="1000" data=y="-3000" data-z="-6000" data-rotate-x="270">
             <div class="slide-text">
                 <p>
                     desperately and, before you try to open, a 22 bullet cross the door and your diaphragm. A 10 years old boy open the door, borrow your hat and come back inside. He looks satisfied.
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
 
@@ -239,11 +228,11 @@
             <div class="slide-text">
                 <p>
                     A farmer and his daughter get closer and watch your face. The farmer turn back but his daughter keep looking at you. She, then, listen to small grunts. She take the sheet from your backpack and see the little Nick in tears.
-
                 </p>
+                <p>Congratulations! You did what ought to be done!</p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#intro">R.I.P.</a>
             </div> 
         </div> 
 
@@ -256,30 +245,9 @@
                 </p>
             </div> 
             <div class="menu">
-                <a href="#intro">START OVER</a>
+                <a href="#wakeup">START OVER</a>
             </div> 
         </div> 
-
-
-        <!--  ------ base structure ------
-            <div id="" class="step slide" data-x="1500">
-                <div class="slide-text">
-                    <p>
-                        
-                    </p>
-                    <br />
-                    <p>
-                        
-                    </p>
-                    <p><a href=""></a></p>
-                    <p><a href=""></a></p>
-                </div> 
-                <div class="menu">
-                    <a href="#intro">START OVER</a>
-                </div> 
-            </div> 
-         -->
-        
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
